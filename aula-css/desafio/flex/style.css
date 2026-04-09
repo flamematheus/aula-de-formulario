@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    background-color: cadetblue;
+    width: 1000px;
+    height: 1000px;
+    flex-direction: column;
+    /* justify cantent altera os elementos na horizontal ,porem se eu alterarar o flex firection para column ele alterrara os elementos na vertical */
+    justify-content:space-between; 
+    align-items:flex-end; 
+    gap: 5px;
+    
+}
+.box{
+    background-color: darkorange;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}

@@ -1,0 +1,18 @@
+.box{
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    background-color: blue;
+    display: flex;
+    box-sizing: border-box;
+    
+    
+  
+}
+.conteiner{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    flex-wrap: wrap;
+
+}
